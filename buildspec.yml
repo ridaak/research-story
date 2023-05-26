@@ -7,10 +7,6 @@ phases:
   pre_build:
     commands:
       - npm install
-  post_build:
-    commands:
-      - echo Build completed on `date`
-      - npm run start
 artifacts:
   files:
     - "**/*"
